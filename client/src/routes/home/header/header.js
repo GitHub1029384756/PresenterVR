@@ -10,7 +10,7 @@ function header() {
             <Container fluid>
                 <Row>
                     <Col data-aos = "fade-right" className = "mt-5 d-flex justify-content-center">
-                        <h1 className = "text-center" >A new way to connect with people<h5 className = "text-center">the next generation of communication</h5></h1>
+                        <h1 className = "text-center" >A new way to connect with people<h5 className = "text-center">the next generation of presentations</h5></h1>
                        
                     </Col>
                 </Row> 

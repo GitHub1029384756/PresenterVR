@@ -1,0 +1,39 @@
+section.about{
+    color: #21242C;
+    margin-top: 125px;
+}
+
+@media (min-width: 576px) {  
+    section.about .vr-container{
+        max-width: 40%;
+    }
+}
+
+
+section.about .vr-container::before{
+    height: 100px;
+    left: -999em;
+    right: -999em;
+    background: #21242C;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1100em;
+    top: 90px;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+
+section.about hr{
+    border-color: #00B0F0;
+}
+
+section.about .border-box{
+    border: 3px solid #21242C;
+    overflow: hidden;
+}
+
+
+
