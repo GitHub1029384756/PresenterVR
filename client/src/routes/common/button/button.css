@@ -1,0 +1,25 @@
+.button .btn-outline-grey{
+    border: 2px solid #212529;
+  }
+
+.button .btn-outline-white{
+    border: 2px solid #ffffff;
+}
+
+.button  .btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active, .btn-outline-white.active,
+  .btn-outline-grey:hover, .btn-outline-grey:focus, .btn-outline-grey:active, .btn-outline-grey.active {
+    border-color: #00B0F0;
+    color: #00B0F0 !important;
+}
+
+.button .btn {
+    border-radius: 300px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+  
+.button .btn-xl {
+    font-size: 11px;
+    padding: 15px 45px;
+}

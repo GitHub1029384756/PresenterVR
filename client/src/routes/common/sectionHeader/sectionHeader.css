@@ -1,0 +1,12 @@
+.section-heading {
+    margin-bottom: 60px;
+}
+  
+.section-heading h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+  
+.section-heading p {
+    margin-bottom: 0;
+}

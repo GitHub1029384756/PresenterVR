@@ -1,0 +1,20 @@
+section.register{
+    height: 100vh;
+}
+
+section.register .icon{
+    color: #00B0F0;
+}
+
+section.register .register-row{
+    width: 500px;
+}
+
+section.register .rounded{
+    border-radius: 300px !important;
+
+}
+
+section.register .header-text{
+    text-transform: uppercase;
+}

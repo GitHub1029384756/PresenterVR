@@ -1,0 +1,20 @@
+section.login{
+    height: 100vh;
+}
+
+section.login .icon{
+    color: #00B0F0;
+}
+
+section.login .login-row{
+    width: 500px;
+}
+
+section.login .rounded{
+    border-radius: 300px !important;
+
+}
+
+section.login .header-text{
+    text-transform: uppercase;
+}
