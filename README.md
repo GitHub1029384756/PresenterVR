@@ -16,7 +16,7 @@
 
 ## Paths
 
-### "[Hostname]/" = Landing Page
+### → "[Hostname]/" = Landing Page
 
 #### • "[Hostname]/#home" = Header Section
 
@@ -26,6 +26,6 @@
 
 #### • "[Hostname]/#technology" = Technology Used Section
 
-### "[Hostname]/register" = Register Page
+### → "[Hostname]/register" = Register Page
 
-### "[Hostname]/login" = Login Page
+### → "[Hostname]/login" = Login Page
