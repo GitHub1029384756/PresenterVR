@@ -16,16 +16,16 @@
 
 ## Paths
 
-### → "[Hostname]/" = Landing Page
+###  "[Hostname]/" = Landing Page
 
-* • "[Hostname]/#home" = Header Section
+* "[Hostname]/#home" = Header Section
 
-*#### • "[Hostname]/#about" = About Section
+* "[Hostname]/#about" = About Section
 
-*#### • "[Hostname]/#started" = Getting-Started Section
+* "[Hostname]/#started" = Getting-Started Section
 
-*#### • "[Hostname]/#technology" = Technology Used Section
+* "[Hostname]/#technology" = Technology Used Section
 
-### → "[Hostname]/register" = Register Page
+### "[Hostname]/register" = Register Page
 
-### → "[Hostname]/login" = Login Page
+### "[Hostname]/login" = Login Page
