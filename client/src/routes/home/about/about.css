@@ -10,7 +10,6 @@ section.about{
     }
 }
 
-
 section.about .vr-container::before{
     height: 100px;
     left: -999em;
@@ -26,15 +25,22 @@ section.about .vr-container::before{
     border-radius: 10px;
 }
 
-
-section.about hr{
-    border-color: #00B0F0;
-}
-
 section.about .border-box{
     border: 3px solid #21242C;
     overflow: hidden;
+    position: relative;
 }
 
+section.about .border-box img{
+    filter: blur(2px);
+}
 
-
+section.about .border-box .text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    background: #21242C;
+    width: 90%;
+}
