@@ -1,6 +1,7 @@
 section.started{
     color: #21242C;
     margin-top: 50px;
+    overflow-x: hidden;
 }
 
 section.started .icon{

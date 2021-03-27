@@ -1,6 +1,7 @@
 section.about{
     color: #21242C;
     margin-top: 125px;
+    overflow: hidden;
 }
 
 @media (min-width: 576px) {  
