@@ -18,7 +18,7 @@
 
 ### → "[Hostname]/" = Landing Page
 
-*#### • "[Hostname]/#home" = Header Section
+* • "[Hostname]/#home" = Header Section
 
 *#### • "[Hostname]/#about" = About Section
 
