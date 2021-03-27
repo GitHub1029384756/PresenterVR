@@ -1,6 +1,6 @@
 # PresenterVR
 
-## Guide To Run Project
+## Guide To Run The Project
 
 ### (1) Install Node.js If You Haven't Already
 
@@ -24,7 +24,7 @@
 
 * "[Hostname]/#started" = Getting-Started Section
 
-* "[Hostname]/#technology" = Technology Used Section
+* "[Hostname]/#technology" = Technologies-Used Section
 
 ### "[Hostname]/register" = Register Page
 
