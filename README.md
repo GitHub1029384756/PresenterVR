@@ -13,3 +13,19 @@
 ### (5) Type "npm start" (Exclude Speach Marks) Into The cmd
 
 ### (6) Project Should Open In The Browser
+
+## Paths
+
+### "[Hostname]/" = Landing Page
+
+#### "[Hostname]/#home" = Header Section
+
+#### "[Hostname]/#about" = About Section
+
+#### "[Hostname]/#started" = Getting-Started Section
+
+#### "[Hostname]/#technology" = Technology Used Section
+
+### "[Hostname]/register" = Register Page
+
+### "[Hostname]/login" = Login Page
