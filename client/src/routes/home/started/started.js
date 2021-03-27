@@ -14,14 +14,14 @@ function started() {
                         <UserPlus className = "icon m-auto" size = {100}></UserPlus>
                     </Col>
                     <Col lg = {10}>
-                        <h1 className = "text-left">Register for an account</h1>
+                        <h1 className = "text-lg-left text-center">Register for an account</h1>
                         <p className = "text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
                     </Col>
                 </Row>
                 <hr className = "w-25"></hr>
                 <Row data-aos = "fade-left" className = "my-5">
                     <Col xs={{ span: 12, order: 2 }} lg = {{ span: 10, order: 1}}>
-                        <h1 className = "text-right">Create a new event session</h1>
+                        <h1 className = "text-lg-right text-center">Create a new event session</h1>
                         <p className = "text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
                     </Col>
                     <Col xs={{ span: 12, order: 1 }} lg = {{ span: 2, order: 2}} className = "d-flex justify-content-center">
@@ -34,14 +34,14 @@ function started() {
                         <Link className = "icon m-auto" size = {100}></Link>
                     </Col>
                     <Col lg = {10}>
-                        <h1 className = "text-left">Send the session link to a user</h1>
+                        <h1 className = "text-lg-left text-center">Send the session link to a user</h1>
                         <p className = "text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
                     </Col>
                 </Row>
                 <hr className = "w-25"></hr>
                 <Row data-aos = "fade-left" className = "my-5">
                     <Col xs={{ span: 12, order: 2 }} lg = {{ span: 10, order: 1}}>
-                        <h1 className = "text-right">Enter the session link and join</h1>
+                        <h1 className = "text-lg-right text-center">Enter the session link and join</h1>
                         <p className = "text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
                     </Col>
                     <Col xs={{ span: 12, order: 1 }} lg = {{ span: 2, order: 2}} className = "d-flex justify-content-center">
