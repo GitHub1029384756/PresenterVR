@@ -15,6 +15,7 @@ function Navigation() {
                         <Nav.Link className = "mx-lg-3 mr-md-3 ml-md-0" href = "/#about">About</Nav.Link>
                         <Nav.Link className = "mr-3" href = "/#technology">Technology</Nav.Link>
                         <Nav.Link className = "mr-3" href = "/#started">Getting Started</Nav.Link>
+                        <Nav.Link className = "mr-3" href = "/#acknowledgement">Acknowledgement</Nav.Link>
                         <Nav.Link className = "mr-3" href = "/#contact">Contact</Nav.Link>
                     </Nav>
                     <Nav>

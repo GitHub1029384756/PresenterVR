@@ -1,7 +1,7 @@
 import React from 'react';
 import './technology.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faDiscord, faNodeJs, faReact, faEnvira} from '@fortawesome/free-brands-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faDiscord, faNodeJs, faReact, faEnvira} from '@fortawesome/free-brands-svg-icons';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import Header from '../../common/sectionHeader/sectionHeader.js';
 import Phone from '../../../media/phone-img.png';
@@ -24,7 +24,7 @@ function technology() {
                         </Row>
                         <Row className = "h-25">
                             <Col xs={{ span: 12, order: 2 }} lg = {{ span: 10, order: 1}} className = "text-lg-right text-center">
-                                <h5>Express</h5>
+                                <h5>Express.js</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Text of the printing and typesetting</p> 
                             </Col>
                             <Col xs={{ span: 12, order: 1 }} lg = {{ span: 2, order: 2}} className = "d-flex align-items-center justify-content-center">

@@ -6,7 +6,6 @@ import Home from './routes/home/home.js';
 import Register from './routes/register/register.js';
 import Login from './routes/login/login.js';
 import Dashboard from './routes/dashboard/dashboard.js';
-import Footer from './routes/common/footer/footer.js';
 
 function App() {
   AOS.init({duration : 2000});

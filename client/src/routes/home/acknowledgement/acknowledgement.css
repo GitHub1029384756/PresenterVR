@@ -1,0 +1,38 @@
+section.acknowledgement{
+    color: #21242C;
+    margin-top: 125px;
+    overflow: hidden;
+}
+
+section.acknowledgement hr{
+    background-color: #00B0F0;
+}
+
+section.acknowledgement .hubs-icon{
+    font-weight: bold !important;
+}
+
+section.acknowledgement .discord-icon{
+    color: #7289DA;
+}
+
+section.acknowledgement .nodejs-icon{
+    color: #68A063;
+}
+
+section.acknowledgement .react-icon{
+    color: #61DBFB;
+}
+
+section.acknowledgement .mangoDB-icon{
+    color: #3FA037;
+}
+
+section.acknowledgement .icon-text{
+    text-decoration: none;
+    color: #21242C;
+}
+
+section.acknowledgement .icon-text:hover{
+    color: #00B0F0 !important;
+}
