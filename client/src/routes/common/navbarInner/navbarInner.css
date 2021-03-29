@@ -1,0 +1,9 @@
+.inner-navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #21242C;
+}
+
+.inner-navbar .emblem{
+    max-width: 200px;
+}

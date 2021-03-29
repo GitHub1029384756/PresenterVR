@@ -1,8 +1,9 @@
 import React from 'react';
 import './started.css';
-import {UserPlus, FilePlus, Link, LogIn} from 'react-feather'
+import {UserPlus, FilePlus, Link, LogIn} from 'react-feather';
 import {Container, Row, Col} from 'react-bootstrap';
 import Header from '../../common/sectionHeader/sectionHeader.js';
+import Button from '../../common/button/button.js';
 
 function started() {
     return (
@@ -48,7 +49,8 @@ function started() {
                         <LogIn className = "icon m-auto" size = {100}></LogIn>
                     </Col>
                 </Row>
-                
+                <hr className = "w-25"></hr>
+                <Button effectType = "fade-right" styleType = "btn-outline-grey" link = "/register" contentText = "Register Now"></Button>
             </Container>
             
         </section>

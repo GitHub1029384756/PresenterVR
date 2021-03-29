@@ -6,7 +6,7 @@ function footer() {
     return (
         <footer className =  "mastfooter d-flex align-items-center justify-content-center">
             <Container>
-                <p>This website is intended for demonstration purposes only</p>
+                <p>Created by Group 14 (Jiayuan Wang, Oskar Siwierski, Ryan Key) • This website is intended for demonstration purposes only</p>
             </Container>
         </footer>
     )

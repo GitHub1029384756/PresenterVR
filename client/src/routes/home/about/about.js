@@ -5,7 +5,7 @@ import Header from '../../common/sectionHeader/sectionHeader.js';
 import VR from '../../../media/vr-img.png';
 import Pollusion from '../../../media/pollution-img.jpg';
 import Exspense from '../../../media/expense-img.jpg';
-import Collab from '../../../media/collaboration-img.jpeg';
+import Teamwork from '../../../media/collaboration-img.jpeg';
 
 function about() {
     return (
@@ -35,8 +35,8 @@ function about() {
                         <h1 className = "text-centered text-center text-white">Exspense</h1>
                     </Col>
                     <Col lg = {4} className = "px-0">
-                        <Image src = {Collab} fluid></Image>
-                        <h1 className = "text-centered text-center text-white">Collab</h1>
+                        <Image src = {Teamwork} fluid></Image>
+                        <h1 className = "text-centered text-center text-white">Teamwork</h1>
                     </Col>
                 </Row>
                 <Row>

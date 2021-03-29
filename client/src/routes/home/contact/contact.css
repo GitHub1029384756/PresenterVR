@@ -1,0 +1,48 @@
+section.contact{
+    color: #21242C;
+    margin-top: 100px;
+    margin-bottom: 125px;
+    overflow: hidden;
+}
+
+section.contact a {
+    line-height: 80px;
+    display: block;
+    width: 84px;
+    height: 82px;
+    color: #ffffff !important;
+    border-radius: 100%;
+}
+
+section.contact hr{
+    background-color: #00B0F0;
+}
+
+section.contact .mail-1 {
+    background-color: #1da1f2;
+}
+  
+section.contact .mail-1:hover {
+    background-color: #0d95e8;
+    animation: bounce 0.5s infinite alternate;
+}
+  
+section.contact .mail-2 {
+    background-color: #3b5998;
+}
+  
+section.contact .mail-2:hover {
+    background-color: #344e86;
+    animation: bounce 0.5s infinite alternate;
+}
+  
+section.contact .mail-3 {
+    background-color: #dd4b39;
+}
+  
+section.contact .mail-3:hover {
+    background-color: #d73925;
+    animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {from {transform: translateY(0px);} to {transform: translateY(-5px);}}

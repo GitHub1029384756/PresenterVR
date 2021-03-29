@@ -4,6 +4,7 @@ import Header from './header/header.js';
 import About from './about/about.js';
 import Started from './started/started.js';
 import Technology from './technology/technology.js';
+import Contact from './contact/contact.js';
 import Footer from '../common/footer/footer.js';
 
 function home() {
@@ -12,8 +13,9 @@ function home() {
             <Navigation></Navigation>
             <Header></Header>
             <About></About>
-            <Started></Started>
             <Technology></Technology>
+            <Started></Started>
+            <Contact></Contact>
             <Footer></Footer>
         </>
     )

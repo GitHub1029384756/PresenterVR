@@ -1,12 +1,11 @@
 section.started{
     color: #21242C;
-    margin-top: 50px;
-    overflow-x: hidden;
+    margin-top: 100px;
+    overflow: hidden;
 }
 
 section.started .icon{
     color: #00B0F0;
-
 }
 
 section.started hr{
