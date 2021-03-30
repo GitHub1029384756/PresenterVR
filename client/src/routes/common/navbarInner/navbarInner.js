@@ -12,7 +12,8 @@ function Navigation() {
                 <Navbar.Brand className = "emblem mx-auto" href="/#home"><Image src = {Emblem} fluid></Image></Navbar.Brand>
                 <Navbar.Collapse>
                     <Nav className = "mr-auto">
-                        <Nav.Link className = "mx-lg-3 mr-md-3 ml-md-0" href = "/dashboard">Dashboard</Nav.Link>
+                        <Nav.Link className = "mx-lg-3 mr-md-3 ml-md-0" href = "/create">Create Session</Nav.Link>
+                        <Nav.Link className = "mr-3" href = "/join">Join Session</Nav.Link>
                         <Nav.Link className = "mr-3" href = "/support">Support</Nav.Link>
                     </Nav>
                     <Nav>
