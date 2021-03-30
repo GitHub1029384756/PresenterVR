@@ -30,4 +30,4 @@
 
 ### "[Hostname]/login" = Login Page
 
-### "[Hostname]/Create" = Dashboard Page
+### "[Hostname]/Create" = Create Page
