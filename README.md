@@ -29,3 +29,5 @@
 ### "[Hostname]/register" = Register Page
 
 ### "[Hostname]/login" = Login Page
+
+### "[Hostname]/Create" = Create Page
