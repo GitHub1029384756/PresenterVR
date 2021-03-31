@@ -1,0 +1,13 @@
+.closed{
+    color: #ff0f0f;
+    text-transform: uppercase;
+}
+
+.active{
+    color: #266D1F;
+    text-transform: uppercase;
+}
+
+.icon{
+    color: #00B0F0;
+}

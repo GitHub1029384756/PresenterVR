@@ -12,11 +12,10 @@ function create() {
         <Navigation></Navigation>
         <section className = "create" id = "create">
             <Container>
-                <Header styleType = "mt-5" effectType = "fade-up" headerText = "Create Session" contentText = "Create and control a VR session"></Header>
-              
-                    <iframe title = "mozilla" src="https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f" style={{width: "1024px", height: "768px"}} allow="microphone; camera; vr; speaker; xr-spatial-tracking"></iframe>
-         
-
+                <Header styleType = "mt-5" effectType = "fade-up" headerText = "Create A Session" contentText = "Create a VR session"></Header>
+                <ResponsiveEmbed aspectRatio="16by9">
+                    <embed className = "embed" title = "mozilla" src="https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f" allow="microphone; camera; vr; speaker; xr-spatial-tracking"></embed>
+                </ResponsiveEmbed>
             </Container>
         </section>
         <Footer></Footer>

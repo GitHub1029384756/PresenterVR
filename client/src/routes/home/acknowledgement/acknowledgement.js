@@ -55,7 +55,7 @@ function acknowledgement() {
                         <p className = "text-lg-center text-justify"><a className = "icon-text" href = "https://feathericons.com/">Feather Icons </a>•<a className = "icon-text" href = "https://github.com/feathericons/react-feather"> React Feather </a>• 
                         <a className = "icon-text" href = "https://fontawesome.com/"> Fontawesome </a>•<a className = "icon-text" href = "https://github.com/axios/axios"> Axios </a>•<a className = "icon-text" href = "https://www.npmjs.com/package/axios-hooks"> Axios Hooks </a>•
                         <a className = "icon-text" href = "https://github.com/michalsnik/aos"> AOS </a>•<a className = "icon-text" href = "https://github.com/woofers/react-wavify"> React Wavify </a>•  <a className = "icon-text" href = "https://getbootstrap.com/"> Bootstrap </a>•
-                        <a className = "icon-text" href = "https://react-bootstrap.github.io/"> React Bootstrap </a>
+                        <a className = "icon-text" href = "https://react-bootstrap.github.io/"> React Bootstrap </a>•<a className = "icon-text" href = "https://github.com/ReactTraining/react-router"> React Router </a>
                         </p> 
                     </Col>
                 </Row>

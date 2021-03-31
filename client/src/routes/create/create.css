@@ -4,3 +4,7 @@ section.create{
     margin-bottom: 400px;
 
 }
+
+section.create .embed{
+    border: 3px solid #00B0F0;
+}

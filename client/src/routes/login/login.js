@@ -17,7 +17,7 @@ function Login() {
                             <Form data-aos = "fade-down" className = "form-box">
                                 <UserCheck className = "icon mx-auto d-flex justify-content-center" size = {100}></UserCheck>
                                 <h3 className = "header-text text-center">login</h3>
-                                <Form.Group controlId = "Email">
+                                <Form.Group controlId = "Username">
                                     <Form.Label>Username</Form.Label>
                                     <Form.Control className = "rounded" type = "Username" placeholder = "Username"></Form.Control>
                                 </Form.Group>

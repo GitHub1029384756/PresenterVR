@@ -6,7 +6,7 @@ function button({link, contentText, styleType, effectType}) {
     return (
         <div data-aos = {effectType} className = "button">
             <Row>
-                <Col className = "d-flex justify-content-center mt-4">
+                <Col className = "d-flex justify-content-center">
                     <a href = {link} className = {`btn btn-xl d-block mx-auto ${styleType || ""}`}>{contentText}</a>
                 </Col>
             </Row>

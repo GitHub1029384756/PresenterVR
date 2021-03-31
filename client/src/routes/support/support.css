@@ -1,0 +1,14 @@
+section.support{
+    color: #21242C;
+    overflow: hidden;
+    margin-bottom: 150px;
+
+}
+
+section.support .icon{
+    color: #00B0F0;
+}
+
+section.support hr{
+    border-color: #00B0F0;
+}

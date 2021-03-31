@@ -5,7 +5,9 @@ import 'aos/dist/aos.css';
 import Home from './routes/home/home.js';
 import Register from './routes/register/register.js';
 import Login from './routes/login/login.js';
+import Support from './routes/support/support.js';
 import Create from './routes/create/create.js';
+import Join from './routes/join/join.js';
 
 function App() {
   AOS.init({duration : 2000});
@@ -16,7 +18,9 @@ function App() {
         <Route exact path = "/"><Home></Home></Route>
         <Route path = "/register"><Register></Register></Route>
         <Route path = "/login"><Login></Login></Route>
+        <Route path = "/support"><Support></Support></Route>
         <Route path = "/create"><Create></Create></Route>
+        <Route path = "/join"><Join></Join></Route>
       </Switch>
     </Router>
     </>
