@@ -30,4 +30,10 @@
 
 ### "[Hostname]/login" = Login Page
 
-### "[Hostname]/Create" = Create Page
+### "[Hostname]/create" = Create a Session Page
+
+### "[Hostname]/join" = Join a Session Page
+
+### "[Hostname]/support" = Support Page
+
+
