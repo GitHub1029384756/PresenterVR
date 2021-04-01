@@ -19,7 +19,7 @@ function join() {
                     <embed className = "embed" title = "mozilla" src="https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f" allow="microphone; camera; vr; speaker; xr-spatial-tracking"></embed>
                 </ResponsiveEmbed>
                 <Row>
-                <Col data-aos = "fade-in" className = "py-2" lg = {12}>
+                    <Col data-aos = "fade-in" className = "py-2" lg = {12}>
                         <div className = "gap container-border">
                             <p className = "text-center">Enter link into the box below to active the session</p>
                             <Form className = "p-4">
@@ -30,7 +30,7 @@ function join() {
                                         </Form.Group>
                                     </Col>
                                     <Col lg = {4}>
-                                        <Button styleType = "btn-outline-grey" link = "/register" contentText = "Apply"></Button>
+                                        <Button styleType = "btn-outline-grey" contentText = "Apply"></Button>
                                     </Col>
                                 </Row>
                             </Form>

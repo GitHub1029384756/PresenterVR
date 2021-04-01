@@ -1,10 +1,40 @@
 section.create{
     color: #21242C;
     overflow: hidden;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
 
 }
 
 section.create .embed{
     border: 3px solid #00B0F0;
+}
+
+section.create .container-border{
+    border: 2px solid #00B0F0;
+}
+
+section.create .gap{
+    padding: 20px;
+}
+
+section.create .blocks{
+    flex: 1;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+section.create .rounded{
+    border-radius: 300px !important;
+}
+
+section.create .dropdown-box{
+    height: 125px;
+}
+
+section.create .dropdown button{
+    fill: #ffffff !important;
+}
+
+section.create .discord-bot{
+    height: 260px;
 }
