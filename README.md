@@ -1,4 +1,4 @@
-![alt text](https://github.com/GitHub1029384756/PresenterVR/blob/main/client/src/media/logo-img.png)
+![alt text](https://github.com/GitHub1029384756/PresenterVR/blob/main/client/src/media/logo-img-alt.png)
 
 ## Guide To Run The Project
 
