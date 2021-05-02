@@ -1,0 +1,18 @@
+{
+    "username-1":{
+        "sessions":[
+            {
+                "host": "host-1",
+                "link": "link-1"
+            }
+        ],
+        "username-1":{
+            "sessions":[
+                {
+                    "host": "host-2",
+                    "link": "link-2"
+                }
+            ]
+        }  
+    }
+}

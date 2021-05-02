@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './join.css';
 import {Container, Row, Col, Table, Form} from 'react-bootstrap';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
@@ -8,7 +8,10 @@ import Entry from './components/entry.js';
 import Button from '../common/button/button.js';
 import Footer from '../common/footer/footer.js';
 
-function join() {
+function Join() {
+
+    const [link, setLink] = useState("")
+    
     return (
         <>
         <Navigation></Navigation>
@@ -16,7 +19,7 @@ function join() {
             <Container>
                 <Header styleType = "mt-5" effectType = "fade-up" headerText = "Join A Session" contentText = "Join a VR session"></Header>
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <embed className = "embed" title = "mozilla" src="https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f" allow="microphone; camera; vr; speaker; xr-spatial-tracking"></embed>
+                    <iframe className = "embed" title = "mozilla" src= {link} allow="microphone; camera; vr; speaker; xr-spatial-tracking"></iframe>
                 </ResponsiveEmbed>
                 <Row>
                     <Col data-aos = "fade-in" className = "py-2" lg = {12}>
@@ -30,7 +33,7 @@ function join() {
                                         </Form.Group>
                                     </Col>
                                     <Col lg = {4}>
-                                        <Button styleType = "btn-outline-grey" contentText = "Apply"></Button>
+                                        <Button clickEffect = {() => setLink("https://hubs.mozilla.com/VN3sXzo?embed_token=e3e498051d58f87815b2c6d095ac24fd")} styleType = "btn-outline-grey" contentText = "Apply"></Button>
                                     </Col>
                                 </Row>
                             </Form>
@@ -44,19 +47,13 @@ function join() {
                             <p className = "text-center">View invitations below</p>
                             <div className = "blocks">
                                 <Table striped bordered hover>
-                                    <thead><tr className = "text-center"><th>Date</th><th>Time</th><th>Host</th><th>Link</th><th>Status</th></tr></thead>
+                                    <thead><tr className = "text-center"><th>Host</th><th>Link</th></tr></thead>
                                     <tbody>
-                                        <Entry statusType = "active" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" status = "Active"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
-                                        <Entry statusType = "closed" date = "02/03/2021" time = "14:30 - 21:30" host = "Ryan K" link = "1234" status = "Closed"></Entry>
+                                        <Entry host = "John_W"></Entry>
+                                        <Entry host = "Ryan_K"></Entry>
+                                        <Entry host = "Test_Account"></Entry>
+                                        <Entry host = "Test_Account"></Entry>
+                                        <Entry host = "Test_Account"></Entry>
                                     </tbody>
                                 </Table>
                             </div>
@@ -72,4 +69,4 @@ function join() {
     )
 }
 
-export default join
+export default Join

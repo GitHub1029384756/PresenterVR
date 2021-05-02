@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './create.css';
 import {Container, Row, Col, Form, DropdownButton, Dropdown} from 'react-bootstrap';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
@@ -7,7 +7,13 @@ import Header from '../common/sectionHeader/sectionHeader.js';
 import Button from '../common/button/button.js';
 import Footer from '../common/footer/footer.js';
 
-function create() {
+function Create() {
+
+    const [link , setLink] = useState("")
+
+
+
+
     return (
         <>
         <Navigation></Navigation>
@@ -15,24 +21,24 @@ function create() {
             <Container>
                 <Header styleType = "mt-5" effectType = "fade-up" headerText = "Create A Session" contentText = "Create a VR session"></Header>
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <embed className = "embed" title = "mozilla" src="https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f" allow="microphone; camera; vr; speaker; xr-spatial-tracking"></embed>
+                    <iframe className = "embed" title = "mozilla" src = {link} allow="microphone; camera; vr; speaker; xr-spatial-tracking"></iframe>
                 </ResponsiveEmbed>
                 <Row className = "d-flex align-items-center justify-content-center">
                     <Col data-aos = "fade-in" className = "py-2" lg = {6}>
                         <div className = "gap container-border">
-                            <p className = "text-center">Select a VR enviroment type</p>
+                            <p className = "text-center">Select a VR environment type</p>
                
                                 <Row className = "dropdown-box text-center d-flex align-items-start justify-content-center">
                                     <Col lg = {7}>
-                                    <DropdownButton variant = "outline-primary" title="VR Enviroment">
-                                        <Dropdown.Item href="#/action-1">Auditorium</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Durham University</Dropdown.Item>
+                                    <DropdownButton variant = "outline-primary" title="VR Environment">
+                                        <Dropdown.Item href="">Auditorium</Dropdown.Item>
+                                        <Dropdown.Item href="">Durham University</Dropdown.Item>
                                     </DropdownButton>
                                     </Col>
                                 </Row>
                                 <Row>
                                 <Col lg = {5} className = "mx-auto">
-                                        <Button styleType = "btn-outline-grey" contentText = "Apply"></Button>
+                                    <Button clickEffect = {() => setLink("https://hubs.mozilla.com/VN3sXzo?embed_token=e3e498051d58f87815b2c6d095ac24fd")} styleType = "btn-outline-grey" contentText = "Apply"></Button>
                                 </Col>
                             </Row>
                         </div>
@@ -86,4 +92,4 @@ function create() {
     )
 }
 
-export default create
+export default Create

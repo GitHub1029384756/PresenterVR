@@ -1,0 +1,7 @@
+section.error{
+    min-height: 100vh;
+}
+
+section.error .emblem{
+    color: #ff0000;
+}

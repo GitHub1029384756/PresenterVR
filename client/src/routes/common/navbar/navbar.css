@@ -7,3 +7,8 @@
 .main-navbar .emblem{
     max-width: 200px;
 }
+
+.main-navbar .toggler{
+    border: none;
+    color: #ffffff !important;
+}

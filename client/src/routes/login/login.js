@@ -25,7 +25,7 @@ function Login() {
                                     <Form.Label>Password</Form.Label>
                                     <Form.Control className = "rounded" type = "password" placeholder = "Password"></Form.Control>
                                 </Form.Group>
-                                <Button styleType = "btn-outline-grey" link = "/" contentText = "login"></Button>
+                                <Button styleType = "btn-outline-grey" link = "/support" contentText = "login"></Button>
                             </Form>
                         </Col>
                     </Row>

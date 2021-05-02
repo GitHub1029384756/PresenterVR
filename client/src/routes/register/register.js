@@ -29,7 +29,7 @@ function Register() {
                                     <Form.Label>Confirm Password</Form.Label>
                                     <Form.Control className = "rounded" type = "password" placeholder = "Confirm Password"></Form.Control>
                                 </Form.Group>
-                                <Button styleType = "btn-outline-grey" link = "/" contentText = "Register"></Button>
+                                <Button styleType = "btn-outline-grey" link = "/support" contentText = "Register"></Button>
                             </Form>
                         </Col>
                     </Row>

@@ -1,0 +1,18 @@
+{
+   "username-1":{
+       "contact":{
+           "username": "username-1"
+       },
+       "credentials":{
+           "password": "password-hash-1"
+       }
+   },
+    "username-2":{
+        "contact":{
+            "username": "username-2"
+        },
+        "credentials":{
+            "password": "password-hash-2"
+        }
+    }
+}

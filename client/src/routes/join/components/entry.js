@@ -4,14 +4,11 @@ import {Clipboard} from 'react-feather';
 import {Button} from 'react-bootstrap'
 
 
-function tableContent({date,time,host,status, link, statusType}) {
+function tableContent({host,status, link, statusType}) {
     return (
         <tr className = "text-center">
-            <td>{date}</td>
-            <td>{time}</td>
             <td>{host}</td>
-            <td><Button className = "bg-light" onClick={() =>  navigator.clipboard.writeText("https://hubs.mozilla.com/wC84cL3?embed_token=35023d4d924c87911d5353ad934fe30f")}><Clipboard className = "icon" size = {24}></Clipboard></Button></td>
-            <td className = {statusType}>{status}</td>
+            <td><Button className = "bg-light" onClick={() =>  navigator.clipboard.writeText("https://hubs.mozilla.com/VN3sXzo?embed_token=e3e498051d58f87815b2c6d095ac24fd")}><Clipboard className = "icon" size = {24}></Clipboard></Button></td>
         </tr>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 import Navigation from '../common/navbar/navbar.js';
 import Header from './header/header.js';
 import About from './about/about.js';
@@ -10,7 +11,7 @@ import Footer from '../common/footer/footer.js';
 
 function home() {
     return (
-        <>
+        <div className = "home-container">
             <Navigation></Navigation>
             <Header></Header>
             <About></About>
@@ -19,7 +20,7 @@ function home() {
             <Acknowledge></Acknowledge>
             <Contact></Contact>
             <Footer></Footer>
-        </>
+        </div>
     )
 }
 
