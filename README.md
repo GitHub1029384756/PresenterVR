@@ -35,10 +35,6 @@
     <td>Technologies used section</th>
   </tr> 
   <tr>
-    <td>Path</th>
-    <td>Description</th>
-  </tr>
-  <tr>
     <td>'/register'</td>
     <td>Register page</td>
   </tr>
