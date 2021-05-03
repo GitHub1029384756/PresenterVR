@@ -15,52 +15,52 @@
     <th>Description</th>
   </tr>
   <tr>
-    <th>'/'</th>
-    <th>Landing page</th>
+    <td>'/'</th>
+    <td>Landing page</th>
   </tr>
   <tr>
-    <th>'/#home'</th>
-    <th>Header section</th>
+    <td>'/#home'</th>
+    <td>Header section</th>
   </tr>
   <tr>
-    <th>'/#about'</th>
-    <th>About section</th>
+    <td>'/#about'</th>
+    <td>About section</th>
   </tr>
   <tr>
-    <th>'/#started'</th>
-    <th>Getting started section</th>
+    <td>'/#started'</th>
+    <td>Getting started section</th>
   </tr>
   <tr>
-    <th>'/#technology'</th>
-    <th>Technologies used section</th>
+    <td>'/#technology'</th>
+    <td>Technologies used section</th>
   </tr> 
   <tr>
-    <th>Path</th>
-    <th>Description</th>
+    <td>Path</th>
+    <td>Description</th>
   </tr>
   <tr>
-    <th>'/register'</th>
-    <th>Register page</th>
+    <td>'/register'</td>
+    <td>Register page</td>
   </tr>
   <tr>
-    <th>'/login'</th>
-    <th>Login page</th>
+    <td>'/login'</td>
+    <td>Login page</td>
   </tr>
   <tr>
-    <th>'/create'</th>
-    <th>Create a session page</th>
+    <td>'/create'</td>
+    <td>Create a session page</td>
   </tr>
   <tr>
-    <th>'/join'</th>
-    <th>Join a session page</th>
+    <td>'/join'</td>
+    <td>Join a session page</td>
   </tr>
   <tr>
-    <th>'/support'</th>
-    <th>Support page</th>
+    <td>'/support'</td>
+    <td>Support page</td>
   </tr>
   <tr>
-    <th>'/support'</th>
-    <th>Support page</th>
+    <td>'/support'</td>
+    <td>Support page</td>
   </tr>
 </table>
 
