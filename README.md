@@ -5,7 +5,7 @@
   <li>Install Node.js (https://nodejs.org/en/)</li>
   <li>Open terminal and navigate to PrsenterVR folder (this will contain all the same data as the repo)</li>
   <li>Run node server.js in terminal</li>
-  <li>Enter the browser and navigate to https://localhost:3000 (READ NOTES BELOW CONCERNING HTTPS ON LOCALHOST)</li>
+  <li>Enter the browser and navigate to https://localhost:3000 <b>(READ NOTES BELOW CONCERNING HTTPS ON LOCALHOST)</b></li>
 </ol>
 
 <h1>PresenterVR Paths</h1>
