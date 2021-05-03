@@ -44,7 +44,6 @@
     <td>Username, Password</td>
     <td>status-code: 200 (valid credentials) | status-code: 422 (invalid credentials) | status-code: 409 (user already exists) </td>
   </tr>
-  <th>
 </table>
 
 <h1>PresenterVR Notes</h1>
