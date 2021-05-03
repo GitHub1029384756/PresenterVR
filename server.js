@@ -5,41 +5,33 @@ const express = require("express");
 const app = express();
 const path = require('path');
 const {stringify} = require('querystring');
-const https = require("https");
-
-
-const port = "3000"
-
-const data = {
-  users: "./data/users.json",
-  sessions: "./data/sessions.json"
-};
-
+const https = require('https');
+const bodyParser = require('body-parser');
+const users = require('./data/users.json');
+const sessions = require('./data/sessions.json');
 
 const options = {
-  key: fs.readFileSync('./ssl/cert.key'),
-  cert: fs.readFileSync('./ssl/cert.pem')
+  key: fs.readFileSync("./ssl/cert.key"),
+  cert: fs.readFileSync("./ssl/cert.pem")
 };
 
-validateEmail = (email) =>{
-  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;            
-  return re.test(String(email).toLowerCase());
-};
+const port = "3000";
 
 validatePassword = (password) =>{
-  return /[A-Z]/       .test(password) && /[a-z]/       .test(password) && /[0-9]/       .test(password) && password.length >= 8 && password.length <= 20;
+  return /[A-Z]/.test(password) && /[a-z]/.test(password) && /[0-9]/.test(password) && password.length >= 8 && password.length <= 20;
 };
 
-saveUser = (users) =>{
-  fs.writeFile(data.users, JSON.stringify(users), (err) =>{
+saveUser = () =>{
+  fs.writeFile('./data/users.json', JSON.stringify(users), (err) =>{
     if(err != undefined){
       console.log(`Error on writing registering user : ${err}`)
     };
   });
+  console.log("new user written to users.JSON")
 };
 
 saveSession = (sessions) =>{
-  fs.writeFile(data.sessions, JSON,stringify(sessions), (err) =>{
+  fs.writeFile(sessions, JSON,stringify(sessions), { flag: 'a+' }, (err) =>{
     if(err != undefined){
       console.log(`Error on writing saving sessions : ${err}`)
     };
@@ -50,6 +42,9 @@ const server = https.createServer(options, app)
   .listen(port, () =>{
     console.log(`server started on ${port}`)
   })
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, "./client/build")));
 
@@ -62,7 +57,7 @@ app.post("/login/auth", (req, res) =>{
   var password = req.body.password;
   var user = users[username];
 
-  if(username === undefined || password === undefined){
+  if(username === "" || password === ""){
     res.sendStatus(422);
     return
   }
@@ -80,34 +75,35 @@ app.post("/login/auth", (req, res) =>{
   res.end(JSON.stringify({access_token: token, user: user}));
 });
 
-app.post("register/auth", (req, res) =>{
+app.post("/register/auth", (req, res) =>{
   var username = req.body.username;
   var password = req.body.password;
   var user = users[username];
 
-  if(username === undefined || password === undefined){
+  if(username === "" || password === ""){
     res.sendStatus(422);
     return
   }
-  else if(user == undefined){
+  else if(user !== undefined){
     res.sendStatus(409);
     return
   }
-  else if(!validateEmail(email) || !validatePassword(password)){
-    res.sendStatus(422);
+  else if(!validatePassword(password)){
+    res.sendStatus(401);
     return
   }
 
   users[username] = {
-    contact: {
-      username: username,
-    },
-    credentials:{
-      password: bcrypt.hashSync(password, 10),
-    },
-  };
+      contact: {
+        username: username,
+      },
+      credentials:{
+        password: bcrypt.hashSync(password, 10),
+      },
+    };
 
-  saveUser(users)
+  saveUser()
+  res.redirect(307, "/login/auth")
 });
 
 app.post("/create/send", (req, res) =>{
@@ -124,6 +120,6 @@ app.post("/create/send", (req, res) =>{
 
   saveSession(sessions)
 });
-  
+
 
 

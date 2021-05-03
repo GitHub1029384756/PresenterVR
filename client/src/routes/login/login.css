@@ -12,9 +12,17 @@ section.login .login-row{
 
 section.login .rounded{
     border-radius: 300px !important;
+    height: 40px;
+}
 
+section.login .rounded:focus{
+    outline: none;
 }
 
 section.login .header-text{
     text-transform: uppercase;
+}
+
+section.login .error{
+    color: #ff0000;
 }

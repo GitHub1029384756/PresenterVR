@@ -50,7 +50,7 @@ function started() {
                     </Col>
                 </Row>
                 <hr className = "w-25"></hr>
-                <Button effectType = "fade-right" styleType = "btn-outline-grey" link = "/register" contentText = "Register Now"></Button>
+                <Button effectType = "fade-right" styleType = "btn-outline-grey mb-2" link = "/register" contentText = "Register Now"></Button>
             </Container>
             
         </section>

@@ -1,0 +1,27 @@
+.btn-outline-grey{
+    border: 2px solid #88929c !important;
+  }
+
+.btn-outline-white{
+    border: 2px solid #ffffff !important;
+}
+
+.btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active, .btn-outline-white.active,
+  .btn-outline-grey:hover, .btn-outline-grey:focus, .btn-outline-grey:active, .btn-outline-grey.active {
+    border-color: #00B0F0 !important;
+    color: #00B0F0 !important;
+}
+
+.button {
+    color: #21242C !important;
+    background: transparent !important;
+    border-radius: 300px !important;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif' !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+}
+  
+.button {
+    font-size: 11px !important;
+    padding: 15px 45px !important;
+}

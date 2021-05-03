@@ -18,3 +18,7 @@ section.register .rounded{
 section.register .header-text{
     text-transform: uppercase;
 }
+
+section.register .error{
+    color: #ff0000;
+}

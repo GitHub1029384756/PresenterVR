@@ -1,18 +1,1 @@
-{
-   "username-1":{
-       "contact":{
-           "username": "username-1"
-       },
-       "credentials":{
-           "password": "password-hash-1"
-       }
-   },
-    "username-2":{
-        "contact":{
-            "username": "username-2"
-        },
-        "credentials":{
-            "password": "password-hash-2"
-        }
-    }
-}
+{"gLEXErMY":{"contact":{"username":"gLEXErMY"},"credentials":{"password":"$2b$10$vFoVzEotWk6HD8uCbJNxGeXA7kUjX4nshmpWfNpgkxWLcXnzAbMh."}},"rEncenCo":{"contact":{"username":"rEncenCo"},"credentials":{"password":"$2b$10$SBGZ/3b3Ntpz0kbF4gCT.Ozpe9vr11uwLn2fJvX/KhM.SKk9OFUZ2"}},"OdGatIat":{"contact":{"username":"OdGatIat"},"credentials":{"password":"$2b$10$jm9Y0rZVdo6uznLo7eXunuU7tFr3nw4cp..xuHXjNCAcszlMBLcnK"}}}
