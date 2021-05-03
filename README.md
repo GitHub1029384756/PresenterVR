@@ -8,6 +8,15 @@
   <li>Enter the browser and navigate to https://localhost:3000 <b>(READ NOTES BELOW CONCERNING HTTPS ON LOCALHOST)</b></li>
 </ol>
 
+<h1>PresenterVR Test Credentials</h1>
+<ul>
+  <li>Username: gLEXErMY, Password: Zs4D)HMcgv&+, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: rEncenCo, Password: 2rE2c6V#M5$!, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: OdGatIat, Password: 3XHu9SMTP^bA, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: testUsername, Password: testPassword, Note: Used for convience when testing the website</li>
+
+</ul>
+
 <h1>PresenterVR Paths</h1>
 <table>
   <tr>
