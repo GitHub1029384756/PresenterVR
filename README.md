@@ -9,20 +9,56 @@
 </ol>
 
 <h1>PresenterVR Paths</h1>
-<ul>
-  <li>Register page → '/register'</li>
-  <li>Login page → '/login'</li>   
-  <li>Create a session page → '/create'</li>
-  <li>Join a session page → '/join'</li>
-  <li>Support page → '/support'</li>
-  <li>Landing page → '/'</li>
-  <ul>
-    <li>Header section → '/#home'</li>
-    <li>About section → '/#about'</li>
-    <li>Getting started section → '/#started'</li>
-    <li>Technologies used sectino → '/#technology'</li>
-  </ul>
-</ul>
+<table>
+  <tr>
+    <th>'/'</th>
+    <th>Landing page</th>
+  </tr>
+  <tr>
+    <th>'/#home'</th>
+    <th>Header section</th>
+  </tr>
+  <tr>
+    <th>'/#about'</th>
+    <th>About section</th>
+  </tr>
+  <tr>
+    <th>'/#started'</th>
+    <th>Getting started section</th>
+  </tr>
+  <tr>
+    <th>'/#technology'</th>
+    <th>Technologies used section</th>
+  </tr> 
+  <tr>
+    <th>Path</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>'/register'</th>
+    <th>Register page</th>
+  </tr>
+  <tr>
+    <th>'/login'</th>
+    <th>Login page</th>
+  </tr>
+  <tr>
+    <th>'/create'</th>
+    <th>Create a session page</th>
+  </tr>
+  <tr>
+    <th>'/join'</th>
+    <th>Join a session page</th>
+  </tr>
+  <tr>
+    <th>'/support'</th>
+    <th>Support page</th>
+  </tr>
+  <tr>
+    <th>'/support'</th>
+    <th>Support page</th>
+  </tr>
+</table>
 
 <h1>PresenterVR API</h1>
 <table>
