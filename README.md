@@ -87,7 +87,7 @@
     <td>POST</td>
     <td>'register/auth'</td>
     <td>Username, Password</td>
-    <td>status-code: 200 (valid credentials) | status-code: 422 (invalid credentials) | status-code: 409 (user already exists) </td>
+    <td>status-code: 200 (valid credentials) | status-code: 422 (credentials undefined) | status-code: 409 (user already exists) | status-code: 401 (invalid password)</td>
   </tr>
 </table>
 
