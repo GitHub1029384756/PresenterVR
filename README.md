@@ -5,7 +5,7 @@
   <li>Install Node.js (https://nodejs.org/en/)</li>
   <li>Open terminal and navigate to PrsenterVR folder (this will contain all the same data as the repo)</li>
   <li>Run node server.js in terminal</li>
-  <li>Enter the browser and navigate to https://localhost:3000 <b>(READ NOTES BELOW CONCERNING HTTPS ON LOCALHOST)</b></li>
+  <li>Enter the browser and navigate to https://localhost:3000 <b>(read notes below concerning HTTPS on localhost)</b></li>
 </ol>
 
 <h1>PresenterVR Test Credentials</h1>
