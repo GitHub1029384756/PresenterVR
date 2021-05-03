@@ -10,10 +10,10 @@
 
 <h1>PresenterVR Test Credentials</h1>
 <ul>
-  <li>Username: gLEXErMY, Password: Zs4D)HMcgv&+, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: rEncenCo, Password: 2rE2c6V#M5$!, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: OdGatIat, Password: 3XHu9SMTP^bA, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: testUsername, Password: testPassword, Note: Used for convience when testing the website</li>
+  <li>Username: <b>gLEXErMY</b>, Password: <b>Zs4D)HMcgv&+</b>, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: <b>rEncenCo</b>, Password: <b>2rE2c6V#M5$!</b>, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: <b>OdGatIat</b>, Password: <b>3XHu9SMTP^bA</b>, Note: Used as demonstration of good password policy in user manual</li>
+  <li>Username: <b>testUsername</b>, Password: <b>testPassword</b>, Note: Used for convience when testing the website</li>
 
 </ul>
 
