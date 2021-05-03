@@ -10,11 +10,9 @@
 
 <h1>PresenterVR Test Credentials</h1>
 <ul>
-  <li>Username: <b>gLEXErMY</b>, Password: <b>Zs4D)HMcgv&+</b>, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: <b>rEncenCo</b>, Password: <b>2rE2c6V#M5$!</b>, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: <b>OdGatIat</b>, Password: <b>3XHu9SMTP^bA</b>, Note: Used as demonstration of good password policy in user manual</li>
-  <li>Username: <b>testUsername</b>, Password: <b>testPassword</b>, Note: Used for convience when testing the website (this would usually be rejected by the websites password policy)</li>
-
+  <li>Username: <b>gLEXErMY</b>, Password: <b>Zs4D)HMcgv&+</b></li>
+  <li>Username: <b>rEncenCo</b>, Password: <b>2rE2c6V#M5$!</b></li>
+  <li>Username: <b>OdGatIat</b>, Password: <b>3XHu9SMTP^bA</b></li>
 </ul>
 
 <h1>PresenterVR Paths</h1>
