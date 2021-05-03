@@ -11,6 +11,10 @@
 <h1>PresenterVR Paths</h1>
 <table>
   <tr>
+    <th>Path</th>
+    <th>Description</th>
+  </tr>
+  <tr>
     <th>'/'</th>
     <th>Landing page</th>
   </tr>
